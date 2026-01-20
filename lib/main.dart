@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_ui_clone/home_screen.dart';
+import 'package:whatsapp_ui_clone/Pages/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter demo',
       theme: ThemeData(primarySwatch: Colors.green),
       home: HomeScreen(),
     );
