@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui_clone/Pages/home_screen.dart';
+import 'package:whatsapp_ui_clone/Pages/mobile_screen.dart';
+import 'package:whatsapp_ui_clone/Pages/response_screen.dart';
+import 'package:whatsapp_ui_clone/Pages/tab_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +13,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp(debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: HomeScreen(),
+      home: ResponseScreen(
+        MobileScreen: MobileScreen(),
+        TabScreen: TabScreen(),
+      ),
     );
   }
 }

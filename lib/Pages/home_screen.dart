@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
-  static const String id = 'home_screen';
   const HomeScreen({super.key});
 
   @override
