@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TabScreen extends StatelessWidget {
-  const TabScreen({super.key});
+class MesurementScreen extends StatelessWidget {
+  const MesurementScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
