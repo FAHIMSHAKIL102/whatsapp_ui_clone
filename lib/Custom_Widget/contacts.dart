@@ -60,25 +60,41 @@ List messages = [
   {
     "isMe": false,
     "text": "Hey, are you coming to the party?",
-    "time": "8:45 am"
+    "time": "8:45 am",
   },
   {"isMe": true, "text": "Yeah, I’ll be there by 7!", "time": "8:50 am"},
   {"isMe": false, "text": "Awesome! See you then!", "time": "8:55 am"},
   {
     "isMe": true,
     "text": "Can’t wait, it’s going to be fun!",
-    "time": "8:57 am"
+    "time": "8:57 am",
   },
   {
     "isMe": false,
     "text": "For sure! Bring some snacks if you can.",
-    "time": "9:00 am"
+    "time": "9:00 am",
   },
   {"isMe": true, "text": "Will do! See you soon.", "time": "9:02 am"},
   {"isMe": false, "text": "Thanks, see you!", "time": "9:05 am"},
+  {"isMe": true, "text": "Take care!", "time": "9:07 am"},
+  {
+    "isMe": false,
+    "text": "Hey, are you coming to the party?",
+    "time": "8:45 am",
+  },
+  {"isMe": true, "text": "Yeah, I’ll be there by 7!", "time": "8:50 am"},
+  {"isMe": false, "text": "Awesome! See you then!", "time": "8:55 am"},
   {
     "isMe": true,
-    "text": "Take care!",
-    "time": "9:07 am",
+    "text": "Can’t wait, it’s going to be fun!",
+    "time": "8:57 am",
   },
+  {
+    "isMe": false,
+    "text": "For sure! Bring some snacks if you can.",
+    "time": "9:00 am",
+  },
+  {"isMe": true, "text": "Will do! See you soon.", "time": "9:02 am"},
+  {"isMe": false, "text": "Thanks, see you!", "time": "9:05 am"},
+  {"isMe": true, "text": "Take care!", "time": "9:07 am"},
 ];

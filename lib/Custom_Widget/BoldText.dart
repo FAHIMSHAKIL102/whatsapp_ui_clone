@@ -23,10 +23,11 @@ class BoldText extends StatelessWidget {
       overflow: textOverflow,
       text,
       style: TextStyle(
-          fontWeight: FontWeight.bold,
-          fontSize: size,
-          color: color,
-          fontFamily: font),
+        fontWeight: FontWeight.bold,
+        fontSize: size,
+        color: color,
+        fontFamily: font,
+      ),
     );
   }
 }
